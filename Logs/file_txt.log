@@ -1,0 +1,117 @@
+2026-09-23 15:39:41 | [INFO   ] | root | Логгер успешно сконфигурирован
+2026-09-23 15:39:41 | [INFO   ] | root | Приложение запущено
+2026-09-23 15:39:41 | [INFO   ] | triangle | Запрос: a='3', b='3', c='3'
+2026-09-23 15:39:41 | [DEBUG  ] | triangle | Распарсенные стороны: a=3.0, b=3.0, c=3.0
+2026-09-23 15:39:41 | [INFO   ] | triangle | Успех: тип=равносторонний, координаты=[(5, 83), (95, 83), (50, 5)]
+2026-09-23 15:39:41 | [INFO   ] | triangle | Запрос: a='5', b='5', c='8'
+2026-09-23 15:39:41 | [DEBUG  ] | triangle | Распарсенные стороны: a=5.0, b=5.0, c=8.0
+2026-09-23 15:39:41 | [INFO   ] | triangle | Успех: тип=равнобедренный, координаты=[(5, 39), (95, 39), (50, 5)]
+2026-09-23 15:39:41 | [INFO   ] | triangle | Запрос: a='3', b='4', c='5'
+2026-09-23 15:39:41 | [DEBUG  ] | triangle | Распарсенные стороны: a=3.0, b=4.0, c=5.0
+2026-09-23 15:39:41 | [INFO   ] | triangle | Успех: тип=разносторонний, координаты=[(5, 48), (95, 48), (37, 5)]
+2026-09-23 15:39:41 | [INFO   ] | triangle | Запрос: a='1', b='2', c='10'
+2026-09-23 15:39:41 | [DEBUG  ] | triangle | Распарсенные стороны: a=1.0, b=2.0, c=10.0
+2026-09-23 15:39:41 | [WARNING] | triangle | Не треугольник или невалидные числовые данные: a=1.0, b=2.0, c=10.0
+2026-09-23 15:39:41 | [INFO   ] | triangle | Запрос: a='-3', b='4', c='5'
+2026-09-23 15:39:41 | [DEBUG  ] | triangle | Распарсенные стороны: a=-3.0, b=4.0, c=5.0
+2026-09-23 15:39:41 | [WARNING] | triangle | Не треугольник или невалидные числовые данные: a=-3.0, b=4.0, c=5.0
+2026-09-23 15:39:41 | [INFO   ] | triangle | Запрос: a='abc', b='4', c='5'
+2026-09-23 15:39:41 | [ERROR  ] | triangle | Нечисловые входные данные: could not convert string to float: 'abc'
+2026-09-23 15:39:41 | [ERROR  ] | triangle | Traceback:
+Traceback (most recent call last):
+  File "G:\DUVALIN\triangle.py", line 103, in check_triangle
+    a, b, c = _parse_sides(a_raw, b_raw, c_raw)
+              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "G:\DUVALIN\triangle.py", line 24, in _parse_sides
+    return float(a), float(b), float(c)
+           ~~~~~^^^
+ValueError: could not convert string to float: 'abc'
+2026-09-23 15:39:41 | [INFO   ] | triangle | Запрос: a='', b='', c=''
+2026-09-23 15:39:41 | [ERROR  ] | triangle | Нечисловые входные данные: could not convert string to float: ''
+2026-09-23 15:39:41 | [ERROR  ] | triangle | Traceback:
+Traceback (most recent call last):
+  File "G:\DUVALIN\triangle.py", line 103, in check_triangle
+    a, b, c = _parse_sides(a_raw, b_raw, c_raw)
+              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "G:\DUVALIN\triangle.py", line 24, in _parse_sides
+    return float(a), float(b), float(c)
+           ~~~~~^^^
+ValueError: could not convert string to float: ''
+2026-09-23 15:40:50 | [INFO   ] | root | Логгер успешно сконфигурирован
+2026-09-23 15:40:50 | [INFO   ] | root | Приложение запущено
+2026-09-23 15:40:50 | [INFO   ] | triangle | Запрос: a='3', b='3', c='3'
+2026-09-23 15:40:50 | [DEBUG  ] | triangle | Распарсенные стороны: a=3.0, b=3.0, c=3.0
+2026-09-23 15:40:50 | [INFO   ] | triangle | Успех: тип=равносторонний, координаты=[(5, 83), (95, 83), (50, 5)]
+2026-09-23 15:40:50 | [INFO   ] | triangle | Запрос: a='5', b='5', c='8'
+2026-09-23 15:40:50 | [DEBUG  ] | triangle | Распарсенные стороны: a=5.0, b=5.0, c=8.0
+2026-09-23 15:40:50 | [INFO   ] | triangle | Успех: тип=равнобедренный, координаты=[(5, 39), (95, 39), (50, 5)]
+2026-09-23 15:40:50 | [INFO   ] | triangle | Запрос: a='3', b='4', c='5'
+2026-09-23 15:40:50 | [DEBUG  ] | triangle | Распарсенные стороны: a=3.0, b=4.0, c=5.0
+2026-09-23 15:40:50 | [INFO   ] | triangle | Успех: тип=разносторонний, координаты=[(5, 48), (95, 48), (37, 5)]
+2026-09-23 15:40:50 | [INFO   ] | triangle | Запрос: a='1', b='2', c='10'
+2026-09-23 15:40:50 | [DEBUG  ] | triangle | Распарсенные стороны: a=1.0, b=2.0, c=10.0
+2026-09-23 15:40:50 | [WARNING] | triangle | Не треугольник или невалидные числовые данные: a=1.0, b=2.0, c=10.0
+2026-09-23 15:40:51 | [INFO   ] | triangle | Запрос: a='-3', b='4', c='5'
+2026-09-23 15:40:51 | [DEBUG  ] | triangle | Распарсенные стороны: a=-3.0, b=4.0, c=5.0
+2026-09-23 15:40:51 | [WARNING] | triangle | Не треугольник или невалидные числовые данные: a=-3.0, b=4.0, c=5.0
+2026-09-23 15:40:51 | [INFO   ] | triangle | Запрос: a='abc', b='4', c='5'
+2026-09-23 15:40:51 | [ERROR  ] | triangle | Нечисловые входные данные: could not convert string to float: 'abc'
+2026-09-23 15:40:51 | [ERROR  ] | triangle | Traceback:
+Traceback (most recent call last):
+  File "G:\DUVALIN\triangle.py", line 103, in check_triangle
+    a, b, c = _parse_sides(a_raw, b_raw, c_raw)
+              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "G:\DUVALIN\triangle.py", line 24, in _parse_sides
+    return float(a), float(b), float(c)
+           ~~~~~^^^
+ValueError: could not convert string to float: 'abc'
+2026-09-23 15:40:51 | [INFO   ] | triangle | Запрос: a='', b='', c=''
+2026-09-23 15:40:51 | [ERROR  ] | triangle | Нечисловые входные данные: could not convert string to float: ''
+2026-09-23 15:40:51 | [ERROR  ] | triangle | Traceback:
+Traceback (most recent call last):
+  File "G:\DUVALIN\triangle.py", line 103, in check_triangle
+    a, b, c = _parse_sides(a_raw, b_raw, c_raw)
+              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "G:\DUVALIN\triangle.py", line 24, in _parse_sides
+    return float(a), float(b), float(c)
+           ~~~~~^^^
+ValueError: could not convert string to float: ''
+2026-09-23 15:44:05 | [INFO   ] | root | Логгер успешно сконфигурирован
+2026-09-23 15:44:05 | [INFO   ] | root | Приложение запущено
+2026-09-23 15:44:05 | [INFO   ] | triangle | Запрос: a='3', b='3', c='3'
+2026-09-23 15:44:05 | [DEBUG  ] | triangle | Распарсенные стороны: a=3.0, b=3.0, c=3.0
+2026-09-23 15:44:05 | [INFO   ] | triangle | Успех: тип=равносторонний, координаты=[(5, 83), (95, 83), (50, 5)]
+2026-09-23 15:44:05 | [INFO   ] | triangle | Запрос: a='5', b='5', c='8'
+2026-09-23 15:44:05 | [DEBUG  ] | triangle | Распарсенные стороны: a=5.0, b=5.0, c=8.0
+2026-09-23 15:44:05 | [INFO   ] | triangle | Успех: тип=равнобедренный, координаты=[(5, 39), (95, 39), (50, 5)]
+2026-09-23 15:44:05 | [INFO   ] | triangle | Запрос: a='3', b='4', c='5'
+2026-09-23 15:44:05 | [DEBUG  ] | triangle | Распарсенные стороны: a=3.0, b=4.0, c=5.0
+2026-09-23 15:44:05 | [INFO   ] | triangle | Успех: тип=разносторонний, координаты=[(5, 48), (95, 48), (37, 5)]
+2026-09-23 15:44:05 | [INFO   ] | triangle | Запрос: a='1', b='2', c='10'
+2026-09-23 15:44:05 | [DEBUG  ] | triangle | Распарсенные стороны: a=1.0, b=2.0, c=10.0
+2026-09-23 15:44:05 | [WARNING] | triangle | Не треугольник или невалидные числовые данные: a=1.0, b=2.0, c=10.0
+2026-09-23 15:44:05 | [INFO   ] | triangle | Запрос: a='-3', b='4', c='5'
+2026-09-23 15:44:05 | [DEBUG  ] | triangle | Распарсенные стороны: a=-3.0, b=4.0, c=5.0
+2026-09-23 15:44:05 | [WARNING] | triangle | Не треугольник или невалидные числовые данные: a=-3.0, b=4.0, c=5.0
+2026-09-23 15:44:05 | [INFO   ] | triangle | Запрос: a='abc', b='4', c='5'
+2026-09-23 15:44:05 | [ERROR  ] | triangle | Нечисловые входные данные: could not convert string to float: 'abc'
+2026-09-23 15:44:05 | [ERROR  ] | triangle | Traceback:
+Traceback (most recent call last):
+  File "G:\DUVALIN\triangle.py", line 103, in check_triangle
+    a, b, c = _parse_sides(a_raw, b_raw, c_raw)
+              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "G:\DUVALIN\triangle.py", line 24, in _parse_sides
+    return float(a), float(b), float(c)
+           ~~~~~^^^
+ValueError: could not convert string to float: 'abc'
+2026-09-23 15:44:05 | [INFO   ] | triangle | Запрос: a='', b='', c=''
+2026-09-23 15:44:05 | [ERROR  ] | triangle | Нечисловые входные данные: could not convert string to float: ''
+2026-09-23 15:44:05 | [ERROR  ] | triangle | Traceback:
+Traceback (most recent call last):
+  File "G:\DUVALIN\triangle.py", line 103, in check_triangle
+    a, b, c = _parse_sides(a_raw, b_raw, c_raw)
+              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "G:\DUVALIN\triangle.py", line 24, in _parse_sides
+    return float(a), float(b), float(c)
+           ~~~~~^^^
+ValueError: could not convert string to float: ''
